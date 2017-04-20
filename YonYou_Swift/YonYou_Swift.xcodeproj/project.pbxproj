@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB8E23FBFE977C3B96BE0FB /* Pods_YonYou_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */; };
+		A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */; };
+		A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C31EA848CF00EF96E1 /* Main.storyboard */; };
+		A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C61EA848CF00EF96E1 /* Assets.xcassets */; };
+		A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C81EA848CF00EF96E1 /* LaunchScreen.storyboard */; };
+		A4F641D51EA848CF00EF96E1 /* YonYou_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641D41EA848CF00EF96E1 /* YonYou_SwiftTests.swift */; };
+		A4F641E01EA848CF00EF96E1 /* YonYou_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641DF1EA848CF00EF96E1 /* YonYou_SwiftUITests.swift */; };
+		A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */; };
+		A4F641F81EA851AF00EF96E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641F71EA851AF00EF96E1 /* MainViewController.swift */; };
+		A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F642051EA852AE00EF96E1 /* MineViewController.swift */; };
+		A4F642081EA852BF00EF96E1 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F642071EA852BF00EF96E1 /* ProjectViewController.swift */; };
+		A4F6420C1EA852EF00EF96E1 /* ReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6420B1EA852EF00EF96E1 /* ReturnViewController.swift */; };
+		A4F642121EA855FF00EF96E1 /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F642111EA855FF00EF96E1 /* ApplicationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F641D11EA848CF00EF96E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F641B41EA848CF00EF96E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F641BB1EA848CF00EF96E1;
+			remoteInfo = YonYou_Swift;
+		};
+		A4F641DC1EA848CF00EF96E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F641B41EA848CF00EF96E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F641BB1EA848CF00EF96E1;
+			remoteInfo = YonYou_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C927C5CBC73255FBC1C80E1 /* Pods-YonYou_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		79563A1CFCC9DEDA694F9B5A /* Pods-YonYou_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YonYou_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonYou_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F641C41EA848CF00EF96E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F641C61EA848CF00EF96E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F641C91EA848CF00EF96E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F641CB1EA848CF00EF96E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F641D01EA848CF00EF96E1 /* YonYou_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonYou_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F641D41EA848CF00EF96E1 /* YonYou_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonYou_SwiftTests.swift; sourceTree = "<group>"; };
+		A4F641D61EA848CF00EF96E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F641DB1EA848CF00EF96E1 /* YonYou_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonYou_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F641DF1EA848CF00EF96E1 /* YonYou_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonYou_SwiftUITests.swift; sourceTree = "<group>"; };
+		A4F641E11EA848CF00EF96E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4F641F71EA851AF00EF96E1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A4F642051EA852AE00EF96E1 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		A4F642071EA852BF00EF96E1 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		A4F6420B1EA852EF00EF96E1 /* ReturnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnViewController.swift; sourceTree = "<group>"; };
+		A4F642111EA855FF00EF96E1 /* ApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F641B91EA848CF00EF96E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB8E23FBFE977C3B96BE0FB /* Pods_YonYou_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641CD1EA848CF00EF96E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641D81EA848CF00EF96E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CC55E3805771940DC060F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C927C5CBC73255FBC1C80E1 /* Pods-YonYou_Swift.debug.xcconfig */,
+				79563A1CFCC9DEDA694F9B5A /* Pods-YonYou_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		888CF6BA9F190AEC31226706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4F641B31EA848CF00EF96E1 = {
+			isa = PBXGroup;
+			children = (
+				A4F641BE1EA848CF00EF96E1 /* YonYou_Swift */,
+				A4F641D31EA848CF00EF96E1 /* YonYou_SwiftTests */,
+				A4F641DE1EA848CF00EF96E1 /* YonYou_SwiftUITests */,
+				A4F641BD1EA848CF00EF96E1 /* Products */,
+				40CC55E3805771940DC060F2 /* Pods */,
+				888CF6BA9F190AEC31226706 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F641BD1EA848CF00EF96E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */,
+				A4F641D01EA848CF00EF96E1 /* YonYou_SwiftTests.xctest */,
+				A4F641DB1EA848CF00EF96E1 /* YonYou_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F641BE1EA848CF00EF96E1 /* YonYou_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6420D1EA855EA00EF96E1 /* Application */,
+				A4F641F91EA8528300EF96E1 /* Mine */,
+				A4F641FD1EA8528300EF96E1 /* Project */,
+				A4F642011EA8528300EF96E1 /* Return */,
+				A4F641F31EA8514C00EF96E1 /* Main */,
+				A4F641ED1EA84CE700EF96E1 /* Login */,
+				A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */,
+				A4F641C31EA848CF00EF96E1 /* Main.storyboard */,
+				A4F641C61EA848CF00EF96E1 /* Assets.xcassets */,
+				A4F641C81EA848CF00EF96E1 /* LaunchScreen.storyboard */,
+				A4F641CB1EA848CF00EF96E1 /* Info.plist */,
+			);
+			path = YonYou_Swift;
+			sourceTree = "<group>";
+		};
+		A4F641D31EA848CF00EF96E1 /* YonYou_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641D41EA848CF00EF96E1 /* YonYou_SwiftTests.swift */,
+				A4F641D61EA848CF00EF96E1 /* Info.plist */,
+			);
+			path = YonYou_SwiftTests;
+			sourceTree = "<group>";
+		};
+		A4F641DE1EA848CF00EF96E1 /* YonYou_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641DF1EA848CF00EF96E1 /* YonYou_SwiftUITests.swift */,
+				A4F641E11EA848CF00EF96E1 /* Info.plist */,
+			);
+			path = YonYou_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		A4F641ED1EA84CE700EF96E1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641EE1EA84CE700EF96E1 /* Controller */,
+				A4F641EF1EA84CE700EF96E1 /* Model */,
+				A4F641F01EA84CE700EF96E1 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A4F641EE1EA84CE700EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F641EF1EA84CE700EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F641F01EA84CE700EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F641F31EA8514C00EF96E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641F41EA8514C00EF96E1 /* Controller */,
+				A4F641F51EA8514C00EF96E1 /* Model */,
+				A4F641F61EA8514C00EF96E1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A4F641F41EA8514C00EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641F71EA851AF00EF96E1 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F641F51EA8514C00EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F641F61EA8514C00EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F641F91EA8528300EF96E1 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641FA1EA8528300EF96E1 /* Controller */,
+				A4F641FB1EA8528300EF96E1 /* Model */,
+				A4F641FC1EA8528300EF96E1 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		A4F641FA1EA8528300EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F642051EA852AE00EF96E1 /* MineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F641FB1EA8528300EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F641FC1EA8528300EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F641FD1EA8528300EF96E1 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				A4F641FE1EA8528300EF96E1 /* Controller */,
+				A4F641FF1EA8528300EF96E1 /* Model */,
+				A4F642001EA8528300EF96E1 /* View */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		A4F641FE1EA8528300EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F642071EA852BF00EF96E1 /* ProjectViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F641FF1EA8528300EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F642001EA8528300EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F642011EA8528300EF96E1 /* Return */ = {
+			isa = PBXGroup;
+			children = (
+				A4F642021EA8528300EF96E1 /* Controller */,
+				A4F642031EA8528300EF96E1 /* Model */,
+				A4F642041EA8528300EF96E1 /* View */,
+			);
+			path = Return;
+			sourceTree = "<group>";
+		};
+		A4F642021EA8528300EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6420B1EA852EF00EF96E1 /* ReturnViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F642031EA8528300EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F642041EA8528300EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4F6420D1EA855EA00EF96E1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6420E1EA855EA00EF96E1 /* Controller */,
+				A4F6420F1EA855EA00EF96E1 /* Model */,
+				A4F642101EA855EA00EF96E1 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A4F6420E1EA855EA00EF96E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4F642111EA855FF00EF96E1 /* ApplicationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4F6420F1EA855EA00EF96E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F642101EA855EA00EF96E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F641BB1EA848CF00EF96E1 /* YonYou_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F641E41EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_Swift" */;
+			buildPhases = (
+				1FE1891B1C89527F65E889E5 /* [CP] Check Pods Manifest.lock */,
+				A4F641B81EA848CF00EF96E1 /* Sources */,
+				A4F641B91EA848CF00EF96E1 /* Frameworks */,
+				A4F641BA1EA848CF00EF96E1 /* Resources */,
+				91C7583A2C668B6E266E12DD /* [CP] Embed Pods Frameworks */,
+				2AFA1ED0DE5BD6489A438AAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YonYou_Swift;
+			productName = YonYou_Swift;
+			productReference = A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F641CF1EA848CF00EF96E1 /* YonYou_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F641E71EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_SwiftTests" */;
+			buildPhases = (
+				A4F641CC1EA848CF00EF96E1 /* Sources */,
+				A4F641CD1EA848CF00EF96E1 /* Frameworks */,
+				A4F641CE1EA848CF00EF96E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F641D21EA848CF00EF96E1 /* PBXTargetDependency */,
+			);
+			name = YonYou_SwiftTests;
+			productName = YonYou_SwiftTests;
+			productReference = A4F641D01EA848CF00EF96E1 /* YonYou_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F641DA1EA848CF00EF96E1 /* YonYou_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F641EA1EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_SwiftUITests" */;
+			buildPhases = (
+				A4F641D71EA848CF00EF96E1 /* Sources */,
+				A4F641D81EA848CF00EF96E1 /* Frameworks */,
+				A4F641D91EA848CF00EF96E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F641DD1EA848CF00EF96E1 /* PBXTargetDependency */,
+			);
+			name = YonYou_SwiftUITests;
+			productName = YonYou_SwiftUITests;
+			productReference = A4F641DB1EA848CF00EF96E1 /* YonYou_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F641B41EA848CF00EF96E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HanYang;
+				TargetAttributes = {
+					A4F641BB1EA848CF00EF96E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7A29GX6D45;
+						ProvisioningStyle = Automatic;
+					};
+					A4F641CF1EA848CF00EF96E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7A29GX6D45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4F641BB1EA848CF00EF96E1;
+					};
+					A4F641DA1EA848CF00EF96E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7A29GX6D45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4F641BB1EA848CF00EF96E1;
+					};
+				};
+			};
+			buildConfigurationList = A4F641B71EA848CF00EF96E1 /* Build configuration list for PBXProject "YonYou_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F641B31EA848CF00EF96E1;
+			productRefGroup = A4F641BD1EA848CF00EF96E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F641BB1EA848CF00EF96E1 /* YonYou_Swift */,
+				A4F641CF1EA848CF00EF96E1 /* YonYou_SwiftTests */,
+				A4F641DA1EA848CF00EF96E1 /* YonYou_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F641BA1EA848CF00EF96E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */,
+				A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */,
+				A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641CE1EA848CF00EF96E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641D91EA848CF00EF96E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE1891B1C89527F65E889E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AFA1ED0DE5BD6489A438AAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C7583A2C668B6E266E12DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F641B81EA848CF00EF96E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F642081EA852BF00EF96E1 /* ProjectViewController.swift in Sources */,
+				A4F641F81EA851AF00EF96E1 /* MainViewController.swift in Sources */,
+				A4F6420C1EA852EF00EF96E1 /* ReturnViewController.swift in Sources */,
+				A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */,
+				A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */,
+				A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */,
+				A4F642121EA855FF00EF96E1 /* ApplicationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641CC1EA848CF00EF96E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F641D51EA848CF00EF96E1 /* YonYou_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F641D71EA848CF00EF96E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F641E01EA848CF00EF96E1 /* YonYou_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F641D21EA848CF00EF96E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F641BB1EA848CF00EF96E1 /* YonYou_Swift */;
+			targetProxy = A4F641D11EA848CF00EF96E1 /* PBXContainerItemProxy */;
+		};
+		A4F641DD1EA848CF00EF96E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F641BB1EA848CF00EF96E1 /* YonYou_Swift */;
+			targetProxy = A4F641DC1EA848CF00EF96E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F641C31EA848CF00EF96E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F641C41EA848CF00EF96E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F641C81EA848CF00EF96E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F641C91EA848CF00EF96E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F641E21EA848CF00EF96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F641E31EA848CF00EF96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F641E51EA848CF00EF96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C927C5CBC73255FBC1C80E1 /* Pods-YonYou_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4F641E61EA848CF00EF96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79563A1CFCC9DEDA694F9B5A /* Pods-YonYou_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4F641E81EA848CF00EF96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YonYou_Swift.app/YonYou_Swift";
+			};
+			name = Debug;
+		};
+		A4F641E91EA848CF00EF96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YonYou_Swift.app/YonYou_Swift";
+			};
+			name = Release;
+		};
+		A4F641EB1EA848CF00EF96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YonYou_Swift;
+			};
+			name = Debug;
+		};
+		A4F641EC1EA848CF00EF96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7A29GX6D45;
+				INFOPLIST_FILE = YonYou_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YonYou_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F641B71EA848CF00EF96E1 /* Build configuration list for PBXProject "YonYou_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F641E21EA848CF00EF96E1 /* Debug */,
+				A4F641E31EA848CF00EF96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F641E41EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F641E51EA848CF00EF96E1 /* Debug */,
+				A4F641E61EA848CF00EF96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F641E71EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F641E81EA848CF00EF96E1 /* Debug */,
+				A4F641E91EA848CF00EF96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F641EA1EA848CF00EF96E1 /* Build configuration list for PBXNativeTarget "YonYou_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F641EB1EA848CF00EF96E1 /* Debug */,
+				A4F641EC1EA848CF00EF96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F641B41EA848CF00EF96E1 /* Project object */;
+}
