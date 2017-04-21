@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9CB8E23FBFE977C3B96BE0FB /* Pods_YonYou_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */; };
+		A436E0E91EA89C5500CCC93F /* Cell_Return.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436E0E71EA89C5500CCC93F /* Cell_Return.swift */; };
+		A436E0EA1EA89C5500CCC93F /* Cell_Return.xib in Resources */ = {isa = PBXBuildFile; fileRef = A436E0E81EA89C5500CCC93F /* Cell_Return.xib */; };
 		A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */; };
 		A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C31EA848CF00EF96E1 /* Main.storyboard */; };
 		A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C61EA848CF00EF96E1 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		2C927C5CBC73255FBC1C80E1 /* Pods-YonYou_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		79563A1CFCC9DEDA694F9B5A /* Pods-YonYou_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YonYou_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A436E0E71EA89C5500CCC93F /* Cell_Return.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_Return.swift; sourceTree = "<group>"; };
+		A436E0E81EA89C5500CCC93F /* Cell_Return.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_Return.xib; sourceTree = "<group>"; };
 		A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonYou_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F641C41EA848CF00EF96E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -320,6 +324,8 @@
 		A4F642041EA8528300EF96E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A436E0E71EA89C5500CCC93F /* Cell_Return.swift */,
+				A436E0E81EA89C5500CCC93F /* Cell_Return.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -472,6 +478,7 @@
 				A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */,
 				A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */,
 				A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */,
+				A436E0EA1EA89C5500CCC93F /* Cell_Return.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +554,7 @@
 				A4F642081EA852BF00EF96E1 /* ProjectViewController.swift in Sources */,
 				A4F641F81EA851AF00EF96E1 /* MainViewController.swift in Sources */,
 				A4F6420C1EA852EF00EF96E1 /* ReturnViewController.swift in Sources */,
+				A436E0E91EA89C5500CCC93F /* Cell_Return.swift in Sources */,
 				A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */,
 				A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */,
 				A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */,
@@ -709,6 +717,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -723,6 +732,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

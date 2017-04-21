@@ -8,28 +8,41 @@
 
 import UIKit
 
-class ReturnViewController: UIViewController {
+class ReturnViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
+    var tableView:UITableView?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.automaticallyAdjustsScrollViewInsets = false
+        self.tableView = UITableView(frame: CGRect(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        self.tableView?.delegate = self
+        self.tableView?.dataSource = self
+        self.tableView?.register(UINib.init(nibName: "Cell_Return", bundle: nil), forCellReuseIdentifier: "Cell_Return")
+        self.tableView?.tableFooterView = UIView()
+        self.view.addSubview(self.tableView!)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return 5;
     }
-    */
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell:Cell_Return = tableView.dequeueReusableCell(withIdentifier:"Cell_Return", for: indexPath) as! Cell_Return
+        return cell
+    }
+    
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+    {
+        return 240;
+    }
 
+    
+    
+    
+    
 }
