@@ -14,13 +14,14 @@
 		A436E0FF1EA9E98300CCC93F /* HYMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436E0FE1EA9E98300CCC93F /* HYMacro.swift */; };
 		A4510AC11EAD91CF00287F0B /* Cell_Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4510ABF1EAD91CF00287F0B /* Cell_Mine.swift */; };
 		A4510AC21EAD91CF00287F0B /* Cell_Mine.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4510AC01EAD91CF00287F0B /* Cell_Mine.xib */; };
+		A4510AC51EADA08B00287F0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4510AC31EADA08B00287F0B /* LoginViewController.swift */; };
+		A4510AC61EADA08B00287F0B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4510AC41EADA08B00287F0B /* LoginViewController.xib */; };
 		A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */; };
 		A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C31EA848CF00EF96E1 /* Main.storyboard */; };
 		A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C61EA848CF00EF96E1 /* Assets.xcassets */; };
 		A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C81EA848CF00EF96E1 /* LaunchScreen.storyboard */; };
 		A4F641D51EA848CF00EF96E1 /* YonYou_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641D41EA848CF00EF96E1 /* YonYou_SwiftTests.swift */; };
 		A4F641E01EA848CF00EF96E1 /* YonYou_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641DF1EA848CF00EF96E1 /* YonYou_SwiftUITests.swift */; };
-		A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */; };
 		A4F641F81EA851AF00EF96E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641F71EA851AF00EF96E1 /* MainViewController.swift */; };
 		A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F642051EA852AE00EF96E1 /* MineViewController.swift */; };
 		A4F642081EA852BF00EF96E1 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F642071EA852BF00EF96E1 /* ProjectViewController.swift */; };
@@ -68,6 +69,8 @@
 		A436E0FE1EA9E98300CCC93F /* HYMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMacro.swift; sourceTree = "<group>"; };
 		A4510ABF1EAD91CF00287F0B /* Cell_Mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_Mine.swift; sourceTree = "<group>"; };
 		A4510AC01EAD91CF00287F0B /* Cell_Mine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_Mine.xib; sourceTree = "<group>"; };
+		A4510AC31EADA08B00287F0B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4510AC41EADA08B00287F0B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonYou_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F641C41EA848CF00EF96E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +83,6 @@
 		A4F641DB1EA848CF00EF96E1 /* YonYou_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YonYou_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F641DF1EA848CF00EF96E1 /* YonYou_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YonYou_SwiftUITests.swift; sourceTree = "<group>"; };
 		A4F641E11EA848CF00EF96E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A4F641F71EA851AF00EF96E1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A4F642051EA852AE00EF96E1 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		A4F642071EA852BF00EF96E1 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
@@ -212,7 +214,8 @@
 		A4F641EE1EA84CE700EF96E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4F641F11EA84D0B00EF96E1 /* LoginViewController.swift */,
+				A4510AC31EADA08B00287F0B /* LoginViewController.swift */,
+				A4510AC41EADA08B00287F0B /* LoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 			files = (
 				A4510AC21EAD91CF00287F0B /* Cell_Mine.xib in Resources */,
 				A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */,
+				A4510AC61EADA08B00287F0B /* LoginViewController.xib in Resources */,
 				A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */,
 				A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */,
 				A436E0EA1EA89C5500CCC93F /* Cell_Return.xib in Resources */,
@@ -592,11 +596,11 @@
 				A4510AC11EAD91CF00287F0B /* Cell_Mine.swift in Sources */,
 				A4F6420C1EA852EF00EF96E1 /* ReturnViewController.swift in Sources */,
 				A436E0E91EA89C5500CCC93F /* Cell_Return.swift in Sources */,
-				A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */,
 				A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */,
 				A436E0FF1EA9E98300CCC93F /* HYMacro.swift in Sources */,
 				A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */,
 				A4F642121EA855FF00EF96E1 /* ApplicationViewController.swift in Sources */,
+				A4510AC51EADA08B00287F0B /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

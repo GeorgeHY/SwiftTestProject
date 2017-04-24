@@ -20,10 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        
 //        [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0]} forState:UIControlStateSelected];//TabBarItem选中时的字体颜色和大小
+        self.setStartVC()
         
-        let mainVC:UITabBarController = MainViewController()
-        
-        self.window?.rootViewController = mainVC
         return true
     }
 
@@ -50,5 +48,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+extension AppDelegate{
+    func setStartVC(){
+        let loginVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        self.window?.rootViewController = loginVC
+//        let mainVC:UITabBarController = MainViewController()
+//        
+//        self.window?.rootViewController = mainVC
+        
+    }
 }
 
