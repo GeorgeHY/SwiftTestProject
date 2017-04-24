@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Alamofire
+
+
+
 
 class LoginViewController: UIViewController {
 
@@ -33,8 +37,21 @@ class LoginViewController: UIViewController {
     //登录
     @IBAction func LoginAction(_ sender: UIButton) {
         print("登录")
-        let mainVC = MainViewController()
-        self.present(mainVC, animated: true, completion: nil)
+        
+        
+        let param:Parameters = [
+            "userName":"admin",
+            "password":"123456"
+        ]
+        
+        
+        Alamofire.request("http://61.181.83.178:9000/yonyou/loginController.do?checkuser", method: .post, parameters: param, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+            guard let Json = response.result.value else {return}
+            print("json:\(Json)")
+        }
+//        let mainVC = MainViewController()
+//        self.present(mainVC, animated: true, completion: nil)
+//    
         
     }
     

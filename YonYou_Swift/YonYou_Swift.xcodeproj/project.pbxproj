@@ -759,7 +759,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -774,7 +774,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HY.YonYou-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
