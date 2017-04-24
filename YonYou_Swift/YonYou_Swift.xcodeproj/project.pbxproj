@@ -10,6 +10,10 @@
 		9CB8E23FBFE977C3B96BE0FB /* Pods_YonYou_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */; };
 		A436E0E91EA89C5500CCC93F /* Cell_Return.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436E0E71EA89C5500CCC93F /* Cell_Return.swift */; };
 		A436E0EA1EA89C5500CCC93F /* Cell_Return.xib in Resources */ = {isa = PBXBuildFile; fileRef = A436E0E81EA89C5500CCC93F /* Cell_Return.xib */; };
+		A436E0FD1EA9DB5A00CCC93F /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436E0FC1EA9DB5A00CCC93F /* UIColor+HexString.swift */; };
+		A436E0FF1EA9E98300CCC93F /* HYMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436E0FE1EA9E98300CCC93F /* HYMacro.swift */; };
+		A4510AC11EAD91CF00287F0B /* Cell_Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4510ABF1EAD91CF00287F0B /* Cell_Mine.swift */; };
+		A4510AC21EAD91CF00287F0B /* Cell_Mine.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4510AC01EAD91CF00287F0B /* Cell_Mine.xib */; };
 		A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */; };
 		A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C31EA848CF00EF96E1 /* Main.storyboard */; };
 		A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F641C61EA848CF00EF96E1 /* Assets.xcassets */; };
@@ -41,12 +45,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A436E0FA1EA9D88B00CCC93F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2C927C5CBC73255FBC1C80E1 /* Pods-YonYou_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		79563A1CFCC9DEDA694F9B5A /* Pods-YonYou_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YonYou_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-YonYou_Swift/Pods-YonYou_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		A27BCD229120A204B0344FDE /* Pods_YonYou_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YonYou_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A436E0E71EA89C5500CCC93F /* Cell_Return.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_Return.swift; sourceTree = "<group>"; };
 		A436E0E81EA89C5500CCC93F /* Cell_Return.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_Return.xib; sourceTree = "<group>"; };
+		A436E0FC1EA9DB5A00CCC93F /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
+		A436E0FE1EA9E98300CCC93F /* HYMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMacro.swift; sourceTree = "<group>"; };
+		A4510ABF1EAD91CF00287F0B /* Cell_Mine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell_Mine.swift; sourceTree = "<group>"; };
+		A4510AC01EAD91CF00287F0B /* Cell_Mine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_Mine.xib; sourceTree = "<group>"; };
 		A4F641BC1EA848CF00EF96E1 /* YonYou_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YonYou_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F641BF1EA848CF00EF96E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F641C41EA848CF00EF96E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +131,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A436E0FB1EA9DAA300CCC93F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A436E0FC1EA9DB5A00CCC93F /* UIColor+HexString.swift */,
+				A436E0FE1EA9E98300CCC93F /* HYMacro.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		A4F641B31EA848CF00EF96E1 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +165,7 @@
 		A4F641BE1EA848CF00EF96E1 /* YonYou_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A436E0FB1EA9DAA300CCC93F /* Tools */,
 				A4F6420D1EA855EA00EF96E1 /* Application */,
 				A4F641F91EA8528300EF96E1 /* Mine */,
 				A4F641FD1EA8528300EF96E1 /* Project */,
@@ -260,6 +291,8 @@
 		A4F641FC1EA8528300EF96E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4510ABF1EAD91CF00287F0B /* Cell_Mine.swift */,
+				A4510AC01EAD91CF00287F0B /* Cell_Mine.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,6 +408,7 @@
 				A4F641BA1EA848CF00EF96E1 /* Resources */,
 				91C7583A2C668B6E266E12DD /* [CP] Embed Pods Frameworks */,
 				2AFA1ED0DE5BD6489A438AAC /* [CP] Copy Pods Resources */,
+				A436E0FA1EA9D88B00CCC93F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4510AC21EAD91CF00287F0B /* Cell_Mine.xib in Resources */,
 				A4F641CA1EA848CF00EF96E1 /* LaunchScreen.storyboard in Resources */,
 				A4F641C71EA848CF00EF96E1 /* Assets.xcassets in Resources */,
 				A4F641C51EA848CF00EF96E1 /* Main.storyboard in Resources */,
@@ -551,12 +586,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A436E0FD1EA9DB5A00CCC93F /* UIColor+HexString.swift in Sources */,
 				A4F642081EA852BF00EF96E1 /* ProjectViewController.swift in Sources */,
 				A4F641F81EA851AF00EF96E1 /* MainViewController.swift in Sources */,
+				A4510AC11EAD91CF00287F0B /* Cell_Mine.swift in Sources */,
 				A4F6420C1EA852EF00EF96E1 /* ReturnViewController.swift in Sources */,
 				A436E0E91EA89C5500CCC93F /* Cell_Return.swift in Sources */,
 				A4F641F21EA84D0B00EF96E1 /* LoginViewController.swift in Sources */,
 				A4F641C01EA848CF00EF96E1 /* AppDelegate.swift in Sources */,
+				A436E0FF1EA9E98300CCC93F /* HYMacro.swift in Sources */,
 				A4F642061EA852AF00EF96E1 /* MineViewController.swift in Sources */,
 				A4F642121EA855FF00EF96E1 /* ApplicationViewController.swift in Sources */,
 			);

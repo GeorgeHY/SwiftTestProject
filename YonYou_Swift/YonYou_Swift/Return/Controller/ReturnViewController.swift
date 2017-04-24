@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReturnViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class ReturnViewController: UIViewController {
 
     var tableView:UITableView?
     
@@ -25,6 +25,18 @@ class ReturnViewController: UIViewController,UITableViewDataSource,UITableViewDe
         
     }
     
+    
+    
+
+    
+    
+    
+    
+}
+
+// Mark: UITableViewDataSource
+extension ReturnViewController: UITableViewDataSource{
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return 5;
@@ -36,13 +48,14 @@ class ReturnViewController: UIViewController,UITableViewDataSource,UITableViewDe
         return cell
     }
     
+    
+}
+
+//Mark: UITableViewDelegate
+extension ReturnViewController: UITableViewDelegate{
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
         return 240;
     }
-
-    
-    
-    
-    
 }
+
